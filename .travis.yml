@@ -1,0 +1,10 @@
+language: rust
+
+cache: cargo
+
+matrix:
+  include:
+  - os: linux
+    rust: stable
+  - os: osx
+    rust: stable
